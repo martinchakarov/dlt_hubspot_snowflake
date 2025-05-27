@@ -26,7 +26,7 @@ jobs:
           cache: 'pipenv'
       - name: Install Pipenv
         run: |
-          pip install --user pipenv
+          pip3 install --user pipenv
           pipenv install
       - name: Run HubSpot Pipeline
         run: |
