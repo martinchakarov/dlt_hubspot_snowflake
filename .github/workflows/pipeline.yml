@@ -30,5 +30,4 @@ jobs:
           pipenv install
       - name: Run HubSpot Pipeline
         run: |
-          echo "Running HubSpot Pipeline"
           pipenv run python hubspot_pipeline/hubspot_pipeline.py
