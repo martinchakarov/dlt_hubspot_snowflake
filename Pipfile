@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 dlt = {extras = ["snowflake"], version = ">=0.5.1"}
+enlighten = "*"
 
 [dev-packages]
 
