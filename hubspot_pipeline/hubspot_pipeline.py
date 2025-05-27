@@ -14,7 +14,7 @@ def load_crm_data() -> None:
         pipeline_name="hubspot",
         dataset_name="hubspot_dataset",
         destination='snowflake',
-        progress='enlighten'
+        progress='log'
     )
 
     info = p.run(
