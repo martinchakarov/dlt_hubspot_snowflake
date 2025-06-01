@@ -48,6 +48,8 @@ DEFAULT_COMPANY_PROPS = [
     "hs_lastmodifieddate",
     "hs_object_id",
     "name",
+    "random_custom_property_test",
+    "another_random_custom_property"
 ]
 
 DEFAULT_CONTACT_PROPS = [
@@ -114,7 +116,7 @@ ENTITY_PROPERTIES = {
 # 'ALL' represents a list of all available properties for all types
 ALL = "All"
 
-PIPELINES_OBJECTS = ["deals", "tickets"]
+PIPELINES_OBJECTS = ["companies", "contacts"]
 SOFT_DELETE_KEY = "is_deleted"
 ARCHIVED_PARAM = {"archived": True}
 PREPROCESSING = {"split": ["hs_merged_object_ids"]}

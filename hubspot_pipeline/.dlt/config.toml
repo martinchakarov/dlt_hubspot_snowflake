@@ -1,3 +1,4 @@
 [runtime]
 log_level="INFO" 
-dlthub_telemetry = true
+dlthub_telemetry=false
+max_table_nesting=0
