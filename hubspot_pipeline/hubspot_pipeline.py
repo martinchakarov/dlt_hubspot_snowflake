@@ -19,7 +19,7 @@ def load_crm_data() -> None:
     data = hubspot(include_custom_props=False)
     
     info = pipeline.run(
-        data.with_resources("companies", "contacts", "owners"), 
+        data.with_resources("companies", "owners"), 
         write_disposition="replace"
     )
 
