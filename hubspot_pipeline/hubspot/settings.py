@@ -48,6 +48,7 @@ DEFAULT_COMPANY_PROPS = [
     "hs_lastmodifieddate",
     "hs_object_id",
     "name",
+    "hubspot_owner_id",
     "random_custom_property_test",
     "another_random_custom_property"
 ]
